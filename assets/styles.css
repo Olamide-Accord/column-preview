@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col1{
+    background-color: hsl(31, 77%, 52%);
+}
+.col2{
+    background-color: hsl(184, 100%, 22%);
+}
+.col3{
+    background-color: hsl(179, 100%, 13%);
+}
+h1{
+    color: hsl(0, 0%, 95%);
+}
+.col1 button{
+    color: hsl(31, 77%, 52%);
+    border-radius: 2rem;
+    margin: 1.5rem 0px;
+}
+.col2 button{
+    color: hsl(184, 100%, 22%);
+    border-radius: 2rem;
+    margin: 1.5rem 0px;
+}
+.col3 button{
+    color: hsl(179, 100%, 13%);
+    border-radius: 2rem;
+    margin: 1.5rem 0px;
+}
+button{
+    background-color: white;
+    border: 1px;
+    padding: 0.75rem 2.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+button:hover{
+    border: 3px solid white;
+    color: white;
+    background: transparent;
+    border-radius: 2rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+    line-height: 1.75rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+@media (max-width: 750px) {
+    .row div{
+        width: 90%;
+        margin: auto;
+    }
+}
